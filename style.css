@@ -1,0 +1,114 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+header{
+    width:100%;
+    height:80px;
+}
+nav{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+nav ul{
+    list-style-type: none;
+    display:flex;
+    justify-items:center;
+    align-items:center;
+    
+}
+nav ul li{
+    padding:10px;
+    
+}
+nav div{
+    font-size:25px;
+    color:black;
+}
+nav ul li a{
+    text-decoration: none;
+    padding:10px;
+    font-size:25px;
+    color:black;
+}
+.menu1{
+    background-image: url("banner-bg");
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    margin-bottom: 20px;
+}
+.content{
+    margin:auto;
+    width:900px;
+    height:300px;
+    padding:10px;
+    line-height:1.3;
+    position:relative;
+    top:50px;
+}
+h1{
+    font-size:50px;
+}
+.para_1{
+    font-size:30px;
+}
+.Shop_now{
+    text-decoration:none;
+    border:2px solid black;
+    padding:10px;
+    font-size:25px;
+    color:black;
+    border-radius:5px;
+   
+}
+.button{
+    text-align: center;
+    margin-top:15px;
+}
+.icons i{
+    padding:10px;
+    background-color:grey;
+}
+.Review{
+    font-size:60px;
+    text-align:center;
+}
+.Review_section{
+    border:2px solid black;
+    text-align:center;
+    padding:10px;
+    line-height:2;
+    width:1200px;
+    margin:auto;
+    border-radius:5px;
+}
+.image img{
+    border-radius:80px;
+    height:100px;
+}
+.star{
+    color:yellow;
+}
+.Review_section div:nth-of-type(2){
+    font-size:18px;
+}
+span{
+    color:orangered;
+}
+
+.blog_img{
+    display:flex;
+}
+.img img{
+    width:300px;
+    height: 300px;
+}
+.user{
+    display:flex;
+    font-size:20px;
+    justify-content:space-between;
+    width:300px;
+    
+}
